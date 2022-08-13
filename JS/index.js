@@ -159,8 +159,8 @@ var newsComponent = {
   },
 
   render: function () {
-    console.log(this.data);
-    console.log(this.dataForNews);
+    // console.log(this.data);
+    // console.log(this.dataForNews);
     this.news.innerHTML = "";
     if (this.dataForNews.articles == 0) {
       let notFound = `
